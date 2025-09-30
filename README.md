@@ -370,15 +370,3 @@ Commands:
   - `yarn test:nextjs run --coverage` to run regular tests without watch mode with coverage
 
 </details>
-
-## Documentation
-
-Visit our [docs](https://docs.scaffoldstark.com/) to learn how to start building with Scaffold-Stark.
-
-To know more about its features, check out our [website](https://scaffoldstark.com)
-
-## Contributing to Scaffold-Stark
-
-We welcome contributions to Scaffold-Stark!
-
-Please see [CONTRIBUTING.MD](https://github.com/Scaffold-Stark/scaffold-stark-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-Stark.
