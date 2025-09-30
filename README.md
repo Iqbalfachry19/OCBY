@@ -1,22 +1,43 @@
-# 🏗 Scaffold-Stark
+# OCBY
 
-<h4 align="center">
-  <a href="https://docs.scaffoldstark.com/">Documentation</a> |
-  <a href="https://scaffoldstark.com/">Website</a> |
-  <a href="https://scaffold-stark-demo.vercel.app/debug">Demo</a>
-</h4>
+![Logo](./public/logo.png)
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on Starknet blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+![Logo](./public/logo.png)
 
-⚙️ Built using NextJS, Starknet.js, Scarb, Starknet-React, Starknet Foundry.
+**One Click BTC Yield** is a simple web application that connects to a Bitcoin wallet (via [sats-connect](https://docs.sats-connect.org/)), allows users to deposit BTC into a yield contract, and withdraw in just one click.  
+The concept is similar to CeDeFi (CeFi + DeFi), where BTC is managed by a custodian to generate yield, with an easy-to-use interface.
 
-- ✅ **Contract Fast Reload**: Your frontend auto-adapts to your smart contracts as you deploy them.
-- 🪝 [**Custom hooks**](https://docs.scaffoldstark.com/hooks/): Collection of React hooks wrapper around [starknet-react](https://starknet-react.com/) to simplify interactions with smart contracts with typescript autocompletion.
-- 🧱 [**Components**](https://docs.scaffoldstark.com/components): Collection of common web3 components to quickly build your frontend.
-- 🔥 **Burner Wallet & Prefunded Account**: Quickly test your application with a burner wallet and prefunded accounts.
-- 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with Starknet network.
+---
 
-![Debug Contracts tab](./packages/nextjs/public/debug-image.png)
+## ✨ Features
+
+- 🔗 **Wallet Connect / Disconnect**  
+  Supports Bitcoin wallet connection using `sats-connect`.
+
+- 💸 **Deposit & Withdraw BTC**  
+  Users can deposit and withdraw BTC directly into the yield contract.
+
+- ⛓️ **Send & Redeem BTC**  
+  On-chain BTC transfers with a minimum validation (6000 sats).
+
+- ⚡ **Modern UI**  
+  Built with **Next.js 14 + TailwindCSS**, with a header containing the logo and a connect wallet button.
+
+- 🛠️ **Debug Panel**  
+  Includes a debug menu for testing smart contracts / RPC backend.
+
+---
+
+## 📦 Tech Stack
+
+- [Next.js 14](https://nextjs.org/) (App Router)
+- [React 18](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [sats-connect](https://github.com/sats-connect) (wallet integration)
+- TypeScript
+
+---
+
 
 ## 0. Requirements
 
@@ -359,4 +380,3 @@ To know more about its features, check out our [website](https://scaffoldstark.c
 We welcome contributions to Scaffold-Stark!
 
 Please see [CONTRIBUTING.MD](https://github.com/Scaffold-Stark/scaffold-stark-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-Stark.
-# OCBY
