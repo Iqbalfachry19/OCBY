@@ -32,7 +32,9 @@ The concept is similar to CeDeFi (CeFi + DeFi), where BTC is managed by a custod
 - [Next.js 14](https://nextjs.org/) (App Router)
 - [React 18](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [sats-connect](https://github.com/sats-connect) (wallet integration)
+- Xverse Wallet 
+- Atomiq SDK
+- VESU
 - TypeScript
 
 ---
