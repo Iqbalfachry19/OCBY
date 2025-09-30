@@ -1,8 +1,7 @@
 # OCBY
 
-![Logo](./public/logo.png)
+![Logo](./packages/nextjs/public/logo.png)
 
-![Logo](./public/logo.png)
 
 **One Click BTC Yield** is a simple web application that connects to a Bitcoin wallet (via [sats-connect](https://docs.sats-connect.org/)), allows users to deposit BTC into a yield contract, and withdraw in just one click.  
 The concept is similar to CeDeFi (CeFi + DeFi), where BTC is managed by a custodian to generate yield, with an easy-to-use interface.
