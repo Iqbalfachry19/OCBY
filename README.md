@@ -36,6 +36,7 @@ The concept is similar to CeDeFi (CeFi + DeFi), where BTC is managed by a custod
 - Atomiq SDK
 - VESU
 - TypeScript
+- [Backend](https://github.com/Iqbalfachry19/OCBY-backend)
 
 ---
 
