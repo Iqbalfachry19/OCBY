@@ -15,7 +15,7 @@ const Footer = dynamic(
   () => import("~~/components/Footer").then((mod) => mod.Footer),
   {
     ssr: false,
-  },
+  }
 );
 
 const ScaffoldStarkApp = ({ children }: { children: React.ReactNode }) => {
@@ -36,9 +36,8 @@ const ScaffoldStarkApp = ({ children }: { children: React.ReactNode }) => {
             <div className="circle-gradient-blue w-[330px] h-[630px]"></div>
           </>
         )}
-        <Header />
+
         <main className="relative flex flex-col flex-1">{children}</main>
-        <Footer />
       </div>
       <Toaster />
     </>

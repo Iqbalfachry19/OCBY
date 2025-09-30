@@ -46,9 +46,10 @@ import { green } from "./helpers/colorize-log";
  */
 const deployScript = async (): Promise<void> => {
   await deployContract({
-    contract: "YourContract",
+    contract: "BtcYield",
     constructorArgs: {
       owner: deployer.address,
+      pool_token: '0x053b40a647cedfca6ca84f542a0fe36736031905a9639a7f19a3c1e66bfd5080'
     },
   });
 };

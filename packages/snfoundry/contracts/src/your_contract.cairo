@@ -2,6 +2,7 @@
 pub trait IYourContract<TContractState> {
     fn greeting(self: @TContractState) -> ByteArray;
     fn set_greeting(ref self: TContractState, new_greeting: ByteArray, amount_strk: Option<u256>);
+    fn set_greeting_to_default(ref self: TContractState);
     fn withdraw(ref self: TContractState);
     fn premium(self: @TContractState) -> bool;
 }
@@ -102,6 +103,9 @@ pub mod YourContract {
                         value: amount_strk,
                     },
                 );
+        }
+        fn set_greeting_to_default(ref self:ContractState){
+            self.greeting.write("Building Unstoppable Apps!!");
         }
         fn withdraw(ref self: ContractState) {
             self.ownable.assert_only_owner();
